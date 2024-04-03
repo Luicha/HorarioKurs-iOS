@@ -7,18 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6295D51E2BBD9C100018E2EE /* OrMatutinas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295D51D2BBD9C100018E2EE /* OrMatutinas.swift */; };
+		6295D5202BBD9D3A0018E2EE /* orMatutinas.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6295D51F2BBD9D3A0018E2EE /* orMatutinas.rtf */; };
+		6295D5262BBDA0640018E2EE /* orVespertinas.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6295D5252BBDA0640018E2EE /* orVespertinas.rtf */; };
+		6295D52F2BBDA5130018E2EE /* CanonVirgen.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6295D5272BBDA5130018E2EE /* CanonVirgen.rtf */; };
+		6295D5302BBDA5130018E2EE /* CanonAngel.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6295D5282BBDA5130018E2EE /* CanonAngel.rtf */; };
+		6295D5312BBDA5130018E2EE /* OrDespues.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6295D5292BBDA5130018E2EE /* OrDespues.rtf */; };
+		6295D5322BBDA5130018E2EE /* orAntes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6295D52A2BBDA5130018E2EE /* orAntes.rtf */; };
+		6295D5332BBDA5130018E2EE /* CanonConst.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6295D52B2BBDA5130018E2EE /* CanonConst.rtf */; };
+		6295D5342BBDA5130018E2EE /* orMemoriales.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6295D52C2BBDA5130018E2EE /* orMemoriales.rtf */; };
+		6295D5352BBDA5130018E2EE /* orPreparacion.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6295D52D2BBDA5130018E2EE /* orPreparacion.rtf */; };
+		6295D5362BBDA5130018E2EE /* OrNecesidades.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6295D52E2BBDA5130018E2EE /* OrNecesidades.rtf */; };
 		629BA45C2BAF7FB100679752 /* HorarioKursApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629BA45B2BAF7FB100679752 /* HorarioKursApp.swift */; };
 		629BA45E2BAF7FB100679752 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629BA45D2BAF7FB100679752 /* ContentView.swift */; };
 		629BA4602BAF7FB200679752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629BA45F2BAF7FB200679752 /* Assets.xcassets */; };
 		629BA4632BAF7FB200679752 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629BA4622BAF7FB200679752 /* Preview Assets.xcassets */; };
+		629BA46B2BAF806A00679752 /* Horarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629BA46A2BAF806A00679752 /* Horarios.swift */; };
+		629BA46D2BAF807200679752 /* Cancionero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629BA46C2BAF807200679752 /* Cancionero.swift */; };
+		629BA46F2BAF807900679752 /* Oraciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629BA46E2BAF807900679752 /* Oraciones.swift */; };
+		62BAA2192BB1DC230005099F /* Kolyadky in Resources */ = {isa = PBXBuildFile; fileRef = 62BAA2182BB1DC230005099F /* Kolyadky */; };
+		62BAA21B2BB52BBE0005099F /* CancionesKolyadky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BAA21A2BB52BBE0005099F /* CancionesKolyadky.swift */; };
+		62BAA21D2BB5F3F20005099F /* CancionesTradicionales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BAA21C2BB5F3F20005099F /* CancionesTradicionales.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6295D51D2BBD9C100018E2EE /* OrMatutinas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrMatutinas.swift; sourceTree = "<group>"; };
+		6295D51F2BBD9D3A0018E2EE /* orMatutinas.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = orMatutinas.rtf; sourceTree = "<group>"; };
+		6295D5252BBDA0640018E2EE /* orVespertinas.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = orVespertinas.rtf; sourceTree = "<group>"; };
+		6295D5272BBDA5130018E2EE /* CanonVirgen.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = CanonVirgen.rtf; sourceTree = "<group>"; };
+		6295D5282BBDA5130018E2EE /* CanonAngel.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = CanonAngel.rtf; sourceTree = "<group>"; };
+		6295D5292BBDA5130018E2EE /* OrDespues.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = OrDespues.rtf; sourceTree = "<group>"; };
+		6295D52A2BBDA5130018E2EE /* orAntes.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = orAntes.rtf; sourceTree = "<group>"; };
+		6295D52B2BBDA5130018E2EE /* CanonConst.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = CanonConst.rtf; sourceTree = "<group>"; };
+		6295D52C2BBDA5130018E2EE /* orMemoriales.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = orMemoriales.rtf; sourceTree = "<group>"; };
+		6295D52D2BBDA5130018E2EE /* orPreparacion.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = orPreparacion.rtf; sourceTree = "<group>"; };
+		6295D52E2BBDA5130018E2EE /* OrNecesidades.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = OrNecesidades.rtf; sourceTree = "<group>"; };
 		629BA4582BAF7FB100679752 /* HorarioKurs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorarioKurs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		629BA45B2BAF7FB100679752 /* HorarioKursApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioKursApp.swift; sourceTree = "<group>"; };
 		629BA45D2BAF7FB100679752 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		629BA45F2BAF7FB200679752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		629BA4622BAF7FB200679752 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		629BA46A2BAF806A00679752 /* Horarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horarios.swift; sourceTree = "<group>"; };
+		629BA46C2BAF807200679752 /* Cancionero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancionero.swift; sourceTree = "<group>"; };
+		629BA46E2BAF807900679752 /* Oraciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oraciones.swift; sourceTree = "<group>"; };
+		62BAA2182BB1DC230005099F /* Kolyadky */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Kolyadky; sourceTree = "<group>"; };
+		62BAA21A2BB52BBE0005099F /* CancionesKolyadky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancionesKolyadky.swift; sourceTree = "<group>"; };
+		62BAA21C2BB5F3F20005099F /* CancionesTradicionales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancionesTradicionales.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +66,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6295D51C2BBD9BFC0018E2EE /* Oraciones */ = {
+			isa = PBXGroup;
+			children = (
+				6295D5282BBDA5130018E2EE /* CanonAngel.rtf */,
+				6295D52B2BBDA5130018E2EE /* CanonConst.rtf */,
+				6295D5272BBDA5130018E2EE /* CanonVirgen.rtf */,
+				6295D52A2BBDA5130018E2EE /* orAntes.rtf */,
+				6295D5292BBDA5130018E2EE /* OrDespues.rtf */,
+				6295D52C2BBDA5130018E2EE /* orMemoriales.rtf */,
+				6295D52E2BBDA5130018E2EE /* OrNecesidades.rtf */,
+				6295D52D2BBDA5130018E2EE /* orPreparacion.rtf */,
+				6295D5252BBDA0640018E2EE /* orVespertinas.rtf */,
+				6295D51F2BBD9D3A0018E2EE /* orMatutinas.rtf */,
+				6295D51D2BBD9C100018E2EE /* OrMatutinas.swift */,
+			);
+			path = Oraciones;
+			sourceTree = "<group>";
+		};
 		629BA44F2BAF7FB100679752 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +103,9 @@
 		629BA45A2BAF7FB100679752 /* HorarioKurs */ = {
 			isa = PBXGroup;
 			children = (
+				6295D51C2BBD9BFC0018E2EE /* Oraciones */,
+				62BAA2132BB1DBD10005099F /* Canciones */,
+				629BA4692BAF805600679752 /* Vistas */,
 				629BA45B2BAF7FB100679752 /* HorarioKursApp.swift */,
 				629BA45D2BAF7FB100679752 /* ContentView.swift */,
 				629BA45F2BAF7FB200679752 /* Assets.xcassets */,
@@ -65,6 +120,26 @@
 				629BA4622BAF7FB200679752 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		629BA4692BAF805600679752 /* Vistas */ = {
+			isa = PBXGroup;
+			children = (
+				629BA46A2BAF806A00679752 /* Horarios.swift */,
+				629BA46C2BAF807200679752 /* Cancionero.swift */,
+				629BA46E2BAF807900679752 /* Oraciones.swift */,
+			);
+			path = Vistas;
+			sourceTree = "<group>";
+		};
+		62BAA2132BB1DBD10005099F /* Canciones */ = {
+			isa = PBXGroup;
+			children = (
+				62BAA2182BB1DC230005099F /* Kolyadky */,
+				62BAA21A2BB52BBE0005099F /* CancionesKolyadky.swift */,
+				62BAA21C2BB5F3F20005099F /* CancionesTradicionales.swift */,
+			);
+			path = Canciones;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +158,8 @@
 			dependencies = (
 			);
 			name = HorarioKurs;
+			packageProductDependencies = (
+			);
 			productName = HorarioKurs;
 			productReference = 629BA4582BAF7FB100679752 /* HorarioKurs.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +188,9 @@
 				Base,
 			);
 			mainGroup = 629BA44F2BAF7FB100679752;
+			packageReferences = (
+				629BA4702BAF827900679752 /* XCRemoteSwiftPackageReference "SimpleCalendar" */,
+			);
 			productRefGroup = 629BA4592BAF7FB100679752 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +205,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6295D5202BBD9D3A0018E2EE /* orMatutinas.rtf in Resources */,
+				6295D5312BBDA5130018E2EE /* OrDespues.rtf in Resources */,
+				62BAA2192BB1DC230005099F /* Kolyadky in Resources */,
+				6295D5342BBDA5130018E2EE /* orMemoriales.rtf in Resources */,
+				6295D5352BBDA5130018E2EE /* orPreparacion.rtf in Resources */,
 				629BA4632BAF7FB200679752 /* Preview Assets.xcassets in Resources */,
+				6295D52F2BBDA5130018E2EE /* CanonVirgen.rtf in Resources */,
+				6295D5302BBDA5130018E2EE /* CanonAngel.rtf in Resources */,
+				6295D5362BBDA5130018E2EE /* OrNecesidades.rtf in Resources */,
+				6295D5262BBDA0640018E2EE /* orVespertinas.rtf in Resources */,
+				6295D5322BBDA5130018E2EE /* orAntes.rtf in Resources */,
+				6295D5332BBDA5130018E2EE /* CanonConst.rtf in Resources */,
 				629BA4602BAF7FB200679752 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +228,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				629BA46D2BAF807200679752 /* Cancionero.swift in Sources */,
+				62BAA21D2BB5F3F20005099F /* CancionesTradicionales.swift in Sources */,
+				62BAA21B2BB52BBE0005099F /* CancionesKolyadky.swift in Sources */,
+				6295D51E2BBD9C100018E2EE /* OrMatutinas.swift in Sources */,
 				629BA45E2BAF7FB100679752 /* ContentView.swift in Sources */,
+				629BA46B2BAF806A00679752 /* Horarios.swift in Sources */,
 				629BA45C2BAF7FB100679752 /* HorarioKursApp.swift in Sources */,
+				629BA46F2BAF807900679752 /* Oraciones.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +369,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HorarioKurs/Preview Content\"";
+				DEVELOPMENT_TEAM = LZJDMP8FP2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Kurs;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,13 +400,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HorarioKurs/Preview Content\"";
+				DEVELOPMENT_TEAM = LZJDMP8FP2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Kurs;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,6 +445,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		629BA4702BAF827900679752 /* XCRemoteSwiftPackageReference "SimpleCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ppeelen/SimpleCalendar.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 629BA4502BAF7FB100679752 /* Project object */;
 }

@@ -1,0 +1,15 @@
+{
+  "originHash" : "69bc32b25668e424a770b0dfa7124816b204f995a934de3c7e87096740c76eac",
+  "pins" : [
+    {
+      "identity" : "simplecalendar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ppeelen/SimpleCalendar.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "86793d8912607790b61b2737be060b09ecc1bd0e"
+      }
+    }
+  ],
+  "version" : 3
+}
