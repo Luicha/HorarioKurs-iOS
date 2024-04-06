@@ -12,7 +12,7 @@ import Foundation
 struct Song: Identifiable {
     let id = UUID()
     let title: String
-    let lyricsFileName: String // File name for lyrics
+    let lyricsFileName: String
     
     
     var lyrics: String {
@@ -25,7 +25,6 @@ struct Song: Identifiable {
     }
 }
 
-// Define an array of songs
 let songs: [Song] = [
     Song(title: "А в Єрусалимі", lyricsFileName: "А в Єрусалимі"),
     Song(title: "Бог Предвічний", lyricsFileName: "Бог Предвічний"),

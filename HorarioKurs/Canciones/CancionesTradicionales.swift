@@ -12,7 +12,7 @@ import Foundation
 struct Tradicional: Identifiable {
     let id = UUID()
     let btitle: String
-    let blyricsFileName: String // File name for lyrics
+    let blyricsFileName: String
     
     
     var blyrics: String {
@@ -35,8 +35,6 @@ struct Tradicional: Identifiable {
     }
 }
 
-
-// Define an array of songs
 let tradicionales: [Tradicional] = [
     Tradicional(btitle: "А ми люди подорожні", blyricsFileName: "А ми люди подорожні"),
     Tradicional(btitle: "Била мене мати", blyricsFileName: "Била мене мати"),

@@ -20,14 +20,12 @@ struct Horarios: View {
                 Text("3°").tag(2)
                 Text("4°").tag(3)
                 Text("5°").tag(4)
-                // Add more tabs as needed
             }
             .pickerStyle(SegmentedPickerStyle())
-            .padding(.horizontal)
+            .padding()
             
             // Main TabView
             TabView(selection: $mainTabSelection) {
-                // Main Tab 1 content
                 Primero()
                     .tag(0)
                 Segundo()
@@ -70,11 +68,9 @@ struct Primero: View {
             Event(title: "Canto", time: "20:30"),
             Event(title: "Charlas, películas, juegos", time: "21:00"),
             Event(title: "Estudio, silencio nocturno", time: "22:00"),
-            // Add more events as needed
         ]
         VStack {
-//            Text("Primero | Перший").font(.title)
-
+            Text("Primero | Перший").font(.title)
             List(events) { event in
                 HStack(alignment: .center) {
                     Text(event.time)
@@ -84,10 +80,12 @@ struct Primero: View {
                         .background(Color.indigo)
                     Text(event.title)
                         .font(.subheadline)
-                        .frame(minWidth: 150, maxWidth: 150, alignment: .leading)
+                        .frame(alignment: .leading)
                     
                 }
             }
+            .listStyle(.inset)
+
         }
         .navigationBarTitle("Primero")
     }
@@ -119,7 +117,7 @@ struct Segundo: View {
             Event(title: "Нічна тиша, навчання", time: "22:00")
         ]
         VStack {
-//            Text("Segundo | Другий").font(.title)
+            Text("Segundo | Другий").font(.title)
             List(events) { event in
                 HStack(alignment: .center) {
                     Text(event.time)
@@ -129,10 +127,12 @@ struct Segundo: View {
                         .background(Color.indigo)
                     Text(event.title)
                         .font(.subheadline)
-                        .frame(minWidth: 150, maxWidth: 150, alignment: .leading)
-                    
+                        .frame(alignment: .leading)
+
                 }
             }
+            .listStyle(.inset)
+
         }
         .navigationBarTitle("Segundo")
     }
@@ -164,7 +164,7 @@ struct Tercero: View {
             Event(title: "Нічна тиша, навчання", time: "22:00")
         ]
         VStack {
-//            Text("Tercero | Тритій").font(.title)
+            Text("Tercero | Тритій").font(.title)
             List(events) { event in
                 HStack(alignment: .center) {
                     Text(event.time)
@@ -174,10 +174,12 @@ struct Tercero: View {
                         .background(Color.indigo)
                     Text(event.title)
                         .font(.subheadline)
-                        .frame(minWidth: 150, maxWidth: 150, alignment: .leading)
-                    
+                        .frame(alignment: .leading)
+
                 }
             }
+            .listStyle(.inset)
+
         }
         .navigationBarTitle("Tercero")
     }
@@ -208,7 +210,7 @@ struct Cuarto: View {
             Event(title: "Нічна тиша, навчання", time: "22:00")
         ]
         VStack {
-//            Text("Cuarto | Четвертий").font(.title)
+            Text("Cuarto | Четвертий").font(.title)
             List(events) { event in
                 HStack(alignment: .center) {
                     Text(event.time)
@@ -218,10 +220,12 @@ struct Cuarto: View {
                         .background(Color.indigo)
                     Text(event.title)
                         .font(.subheadline)
-                        .frame(minWidth: 150, maxWidth: 150, alignment: .leading)
-                    
+                        .frame(alignment: .leading)
+
                 }
             }
+            .listStyle(.inset)
+
         }
         .navigationBarTitle("Cuarto")
     }
@@ -250,7 +254,7 @@ struct Quinto: View {
             Event(title: "Нічна тиша, навчання", time: "22:00")
         ]
         VStack {
-//                Text("Quinto | П'ятий").font(.title)
+                Text("Quinto | П'ятий").font(.title)
             List(events) { event in
                 HStack(alignment: .center) {
                     Text(event.time)
@@ -260,10 +264,12 @@ struct Quinto: View {
                         .background(Color.indigo)
                     Text(event.title)
                         .font(.subheadline)
-                        .frame(minWidth: 150, maxWidth: 150, alignment: .leading)
-                    
+                        .frame(alignment: .leading)
+
                 }
             }
+            .listStyle(.inset)
+
         }
         .navigationBarTitle("Quinto")
     }

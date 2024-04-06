@@ -46,9 +46,13 @@ struct Oraciones: View {
                     Text("Oraciones para cada necesidad")
                 }
             }
+            .listStyle(InsetListStyle())
             .navigationTitle("Oraciones")
         }
+        .accentColor(.red)
+
     }
+    
 }
 
 #Preview {

@@ -62,6 +62,7 @@ struct TextView: UIViewRepresentable {
     
     func updateUIView(_ uiView: UITextView, context: Context) {
         uiView.attributedText = attributedText
+        uiView.textColor = UIColor(named: "Color") // Use a named color
     }
 }
 

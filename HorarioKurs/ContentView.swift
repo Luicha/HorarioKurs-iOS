@@ -26,6 +26,8 @@ struct ContentView: View {
                     Text("Oraciones")
                 }
         }
+        .accentColor(.red)
+
     }
 }
 
