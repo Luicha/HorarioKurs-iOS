@@ -25,6 +25,7 @@
 		629BA46B2BAF806A00679752 /* Horarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629BA46A2BAF806A00679752 /* Horarios.swift */; };
 		629BA46D2BAF807200679752 /* Cancionero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629BA46C2BAF807200679752 /* Cancionero.swift */; };
 		629BA46F2BAF807900679752 /* Oraciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629BA46E2BAF807900679752 /* Oraciones.swift */; };
+		629DEDA32BC2E80300BAC54F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629DEDA22BC2E80300BAC54F /* LaunchScreen.storyboard */; };
 		62BAA2192BB1DC230005099F /* Kolyadky in Resources */ = {isa = PBXBuildFile; fileRef = 62BAA2182BB1DC230005099F /* Kolyadky */; };
 		62BAA21B2BB52BBE0005099F /* CancionesKolyadky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BAA21A2BB52BBE0005099F /* CancionesKolyadky.swift */; };
 		62BAA21D2BB5F3F20005099F /* CancionesTradicionales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BAA21C2BB5F3F20005099F /* CancionesTradicionales.swift */; };
@@ -50,6 +51,7 @@
 		629BA46A2BAF806A00679752 /* Horarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horarios.swift; sourceTree = "<group>"; };
 		629BA46C2BAF807200679752 /* Cancionero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancionero.swift; sourceTree = "<group>"; };
 		629BA46E2BAF807900679752 /* Oraciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oraciones.swift; sourceTree = "<group>"; };
+		629DEDA22BC2E80300BAC54F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62BAA2182BB1DC230005099F /* Kolyadky */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Kolyadky; sourceTree = "<group>"; };
 		62BAA21A2BB52BBE0005099F /* CancionesKolyadky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancionesKolyadky.swift; sourceTree = "<group>"; };
 		62BAA21C2BB5F3F20005099F /* CancionesTradicionales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancionesTradicionales.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				629BA45D2BAF7FB100679752 /* ContentView.swift */,
 				629BA45F2BAF7FB200679752 /* Assets.xcassets */,
 				629BA4612BAF7FB200679752 /* Preview Content */,
+				629DEDA22BC2E80300BAC54F /* LaunchScreen.storyboard */,
 			);
 			path = HorarioKurs;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				6295D5362BBDA5130018E2EE /* OrNecesidades.rtf in Resources */,
 				6295D5262BBDA0640018E2EE /* orVespertinas.rtf in Resources */,
 				6295D5322BBDA5130018E2EE /* orAntes.rtf in Resources */,
+				629DEDA32BC2E80300BAC54F /* LaunchScreen.storyboard in Resources */,
 				6295D5332BBDA5130018E2EE /* CanonConst.rtf in Resources */,
 				629BA4602BAF7FB200679752 /* Assets.xcassets in Resources */,
 			);
@@ -376,6 +380,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15;
@@ -407,6 +412,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15;
